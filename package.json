@@ -1,0 +1,18 @@
+{
+  "name": "cluster",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Abdurakhmonov Islom",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
